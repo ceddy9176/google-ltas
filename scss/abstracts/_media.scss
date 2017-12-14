@@ -1,0 +1,14 @@
+@media screen and (max-width: $medium-break) {
+  .grid{
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .large:after {
+  width: 88% !important;
+  }
+
+}
+
+@media screen and (max-width: $small-break) {
+
+}
