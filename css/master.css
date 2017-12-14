@@ -11,6 +11,18 @@ sub {
   font-weight: 400;
   color: #7d7d7d; }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px; }
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  background: white; }
+
 body {
   box-sizing: border-box;
   background-color: whitesmoke;
@@ -21,5 +33,8 @@ body {
   width: 90%;
   max-width: 1440px;
   margin: auto; }
+
+.center {
+  text-align: center; }
 
 /*# sourceMappingURL=master.css.map */

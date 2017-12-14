@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  background: $white;
+
+}
