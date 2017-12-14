@@ -35,6 +35,10 @@ sub {
   flex-grow: 1;
   padding: 30px; }
 
+.large {
+  grid-column: span 2;
+  color: white; }
+
 body {
   box-sizing: border-box;
   background-color: whitesmoke;
