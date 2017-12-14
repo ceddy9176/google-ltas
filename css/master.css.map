@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAK;EACH,gBAAgB,ECDN,UAAU;EDEpB,KAAK,ECDM,OAAO;EDElB,WAAW,EAAE,kBAAkB",
-"sources": ["../scss/pages/_main.scss","../scss/abstracts/_variables.scss"],
+"mappings": "AAAA,EAAG;EACD,KAAK,ECEI,OAAO;;ADClB,EAAG;EACD,QAAQ,EAAE,QAAQ;;AAGpB,GAAI;EACF,KAAK,ECPU,OAAO;;ACFxB,IAAK;EACH,UAAU,EAAE,UAAU;EACtB,gBAAgB,EDFN,UAAU;ECGpB,KAAK,EDFM,OAAO;ECGlB,WAAW,EAAE,kBAAkB",
+"sources": ["../scss/base/_typography.scss","../scss/abstracts/_variables.scss","../scss/pages/_main.scss"],
 "names": [],
 "file": "master.css"
 }
