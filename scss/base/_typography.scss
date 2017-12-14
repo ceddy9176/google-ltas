@@ -4,6 +4,7 @@ h1 {
 }
 
 h2 {
+  font-size: 1.2em;
   font-weight: 300;
   @include capitalize;
 }
@@ -15,4 +16,11 @@ sub {
 
 .large h2 {
   margin-bottom: 50px;
+}
+
+.large .story-sub {
+  margin-bottom: 50px;
+  & sub {
+    color: $white;
+  }
 }

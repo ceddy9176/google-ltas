@@ -3,6 +3,7 @@ h1 {
   color: #454545; }
 
 h2 {
+  font-size: 1.2em;
   font-weight: 300; }
   h2:first-letter {
     text-transform: capitalize; }
@@ -13,6 +14,11 @@ sub {
 
 .large h2 {
   margin-bottom: 50px; }
+
+.large .story-sub {
+  margin-bottom: 50px; }
+  .large .story-sub sub {
+    color: white; }
 
 .grid {
   display: grid;
@@ -36,15 +42,21 @@ sub {
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
-  padding: 30px; }
+  padding: 30px;
+  z-index: 1; }
 
 .large {
   grid-column: span 2;
   color: white; }
+  .large:after {
+    content: "";
+    background: #00000026;
+    position: absolute;
+    width: 43.6%;
+    height: 50%; }
 
 .large .content {
   height: 100%;
-  width: 100%;
   justify-content: flex-end; }
 
 .large a.image {
