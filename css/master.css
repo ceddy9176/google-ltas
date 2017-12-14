@@ -3,6 +3,8 @@ h1 {
 
 h2 {
   position: relative; }
+  h2:first-letter {
+    text-transform: capitalize; }
 
 sub {
   color: #7d7d7d; }
