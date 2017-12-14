@@ -1,12 +1,14 @@
 h1 {
+  font-weight: 400;
   color: #454545; }
 
 h2 {
-  position: relative; }
+  font-weight: 300; }
   h2:first-letter {
     text-transform: capitalize; }
 
 sub {
+  font-weight: 400;
   color: #7d7d7d; }
 
 body {
@@ -14,5 +16,10 @@ body {
   background-color: whitesmoke;
   color: #757575;
   font-family: robato, sans-serif; }
+
+.wrapper {
+  width: 90%;
+  max-width: 1440px;
+  margin: auto; }
 
 /*# sourceMappingURL=master.css.map */

@@ -1,12 +1,14 @@
 h1 {
+  font-weight: 400;
   color: $darkgray;
 }
 
 h2 {
-  position: relative;
+  font-weight: 300;
   @include capitalize;
 }
 
 sub {
+  font-weight: 400;
   color: $darkmediumgray;
 }
