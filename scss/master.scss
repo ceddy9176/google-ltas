@@ -1,6 +1,9 @@
-@import 'pages/main';
-@import 'layout/grid';
-@import 'base/typography';
 @import 'abstracts/media';
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
+
+@import 'base/typography';
+
+@import 'layout/grid';
+
+@import 'pages/main';
