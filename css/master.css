@@ -11,6 +11,9 @@ sub {
   font-weight: 400;
   color: #7d7d7d; }
 
+.large h2 {
+  margin-bottom: 50px; }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -38,6 +41,14 @@ sub {
 .large {
   grid-column: span 2;
   color: white; }
+
+.large .content {
+  height: 100%;
+  width: 100%;
+  justify-content: flex-end; }
+
+.large a.image {
+  height: 100%; }
 
 body {
   box-sizing: border-box;

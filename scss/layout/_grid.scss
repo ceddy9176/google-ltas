@@ -29,3 +29,12 @@
   grid-column: span 2;
   color: $white;
 }
+
+.large .content {
+  height: 100%;
+  width: 100%;
+  justify-content: flex-end;
+}
+.large a.image{
+  height: 100%;
+}
